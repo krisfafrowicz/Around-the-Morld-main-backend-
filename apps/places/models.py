@@ -35,9 +35,7 @@ class Place(models.Model):
         'Place Type', max_length=50, null=False, blank=False, choices= MY_CHOICES
     )
 
-    time_to_travel = models.CharField(
-        'Time To Travel', max_length=10, null=False, blank=False
-    )
+
     googel_map_link = models.CharField(
         'Googel Map Link', max_length=500, null=False, blank=False
     )
